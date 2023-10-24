@@ -1,4 +1,9 @@
 # BDStored-Procedures
+
+## ETAPA 1
+
+-- Crie um banco de dados para armazenar alunos, cursos e professores de uma universidade--
+
 create table alunos (
 id_alunos int not null primary key auto_increment,
 nome_alunos varchar(70) not null,
@@ -41,8 +46,12 @@ insert into cursos (id_cursos,nome) values
 	(02,'Comercio Exterior'),
 	(03,'Filosofia'),
 	(04,'Biomedicina');
+ 
+## ETAPA 2
 
 
+
+## ETAPA 3
 DELIMITER //
 
 create procedure insercao_cursos(
