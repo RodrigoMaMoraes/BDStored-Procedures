@@ -88,6 +88,9 @@ CALL selecao_cursos();
 
 DELIMITER //
 
+## ETAPA 4
+-- O aluno possui um email que deve ter seu endereço gerado automaticamente no seguinte formato: nome.sobrenome@dominio.com --
+
 CREATE PROCEDURE email_padrao(
     in pd_id int
 )
@@ -105,6 +108,10 @@ DELIMITER ;
 
 call email_padrao(1);
 select * from alunos;
+
+## ETAPA 5
+
+-- Como fica o email se duas pessoas tiverem o mesmo nome e sobrenome? --
 
 DELIMITER //
 
