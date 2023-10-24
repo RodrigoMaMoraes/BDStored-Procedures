@@ -49,7 +49,7 @@ insert into cursos (id_cursos,nome) values
  
 ## ETAPA 2
 
-
+![imgSQL](https://github.com/RodrigoMaMoraes/BDStored-Procedures/blob/main/AlunosProfessCursos.PNG).
 
 ## ETAPA 3
 DELIMITER //
