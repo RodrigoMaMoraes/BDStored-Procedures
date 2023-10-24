@@ -54,6 +54,9 @@ insert into cursos (id_cursos,nome) values
 ![imgSQL](https://github.com/RodrigoMaMoraes/BDStored-Procedures/blob/main/AlunosProfessCursos.PNG).
 
 ## ETAPA 3
+
+-- Utilize Stored Procedures para automatizar a inserção e seleção dos cursos --
+
 DELIMITER //
 
 create procedure insercao_cursos(
