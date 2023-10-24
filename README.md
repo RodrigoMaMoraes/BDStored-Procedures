@@ -2,7 +2,7 @@
 
 ## ETAPA 1
 
--- Crie um banco de dados para armazenar alunos, cursos e professores de uma universidade--
+-- Crie um banco de dados para armazenar alunos, cursos e professores de uma universidade --
 
 create table alunos (
 id_alunos int not null primary key auto_increment,
@@ -48,6 +48,8 @@ insert into cursos (id_cursos,nome) values
 	(04,'Biomedicina');
  
 ## ETAPA 2
+
+-- Faça a modelagem do banco e identifique as entidades, seus atributos e relacionamentos --
 
 ![imgSQL](https://github.com/RodrigoMaMoraes/BDStored-Procedures/blob/main/AlunosProfessCursos.PNG).
 
